@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="voiceView">
+        <!--条目数-->
+        <attr name="numberlist" format="integer" />
+        <attr name="viewMode">
+            <enum name="line" value="0" />
+            <enum name="rect" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>

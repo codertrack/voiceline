@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:voiceView="http://schemas.android.com/apk/res-auto"
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:background="@android:color/holo_blue_bright" >
+
+      <com.example.voiceline.VoiceLineView
+        android:id="@+id/voicLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:layout_centerVertical="true"
+        voiceView:viewMode="rect"
+         voiceView:numberlist="10"/>
+
+</RelativeLayout>
